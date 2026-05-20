@@ -47,10 +47,10 @@ FAQ_RESPONSES = {
 
 def get_main_keyboard():
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
-    btn_food = types.KeyboardButton("🍏 Добавить еду")
-    btn_burn = types.KeyboardButton("🏃 Добавить тренировку")
-    btn_status = types.KeyboardButton("📊 Баланс калорий")
-    btn_clear = types.KeyboardButton("🗑 Очистить дневник")
+    btn_food = types.KeyboardButton("🍏 Добавить еду/Add food")
+    btn_burn = types.KeyboardButton("🏃 Добавить тренировку/Add exercise")
+    btn_status = types.KeyboardButton("📊 Баланс калорий/Balans of csllory")
+    btn_clear = types.KeyboardButton("🗑 Очистить дневник/Clear the diary")
     markup.row(btn_food, btn_burn)
     markup.row(btn_status, btn_clear)
     return markup
