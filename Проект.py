@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 import os
 
-API_TOKEN = '8240574797:AAEg40Vtww20_XJh1Hu3OEeNgXu6iLjzH6c'
+API_TOKEN = '№№№№№№№№№№№№№№№№№№№№№№№№№№№№№'
 bot = telebot.TeleBot(API_TOKEN)
 
 class CalorieRecord:
