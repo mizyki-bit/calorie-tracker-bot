@@ -31,18 +31,18 @@ class ExerciseRecord(CalorieRecord):
 user_data = {}
 
 FAQ_RESPONSES = {
-    "огурец": "🥒 Огурец свежий: ~15 ккал на 100г. Отличный диетический продукт!",
-    "помидор": "🍅 Помидор: ~18 ккал на 100г. Богат ликопином.",
-    "банан": "🍌 Банан: ~89 ккал на 100г. Хороший источник калия.",
-    "курица": "🍗 Куриное филе (вареное): ~170 ккал на 100г. Чистый белок!",
-    "яблоко": "🍏 Яблоко: ~52 ккал на 100г. Много клетчатки.",
-    "яйцо": "🥚 Яйцо вареное (1 шт): ~75 ккал. Содержит полезные жиры.",
-    "бег": "🏃 Бег трусцой: сжигает около 600 ккал за 1 час.",
-    "ходьба": "🚶 Шаги/Ходьба: сжигает около 250-300 ккал за 1 час.",
-    "плавание": "🏊 Плавание: сжигает около 500 ккал за 1 час тренировки.",
-    "велосипед": "🚴 Велосипед: сжигает около 450 ккал за 1 час средней езды.",
-    "вода": "💧 Вода содержит 0 ккал. Рекомендуется пить 1.5-2 литра в день.",
-    "сон": "😴 Во время сна человек сжигает около 60-70 ккал за один час."
+    "Cucumber": "🥒 Fresh cucumber: ~15 kcal per 100g. An excellent dietary product!",
+    "Tomato": "🍅 Tomato: ~18 kcal per 100g. Rich in lycopene.",
+    "Banana": "🍌 Banana: ~89 kcal per 100g. A good source of potassium.",
+    "Chicken": "🍗 Chicken fillet (boiled): ~170 kcal per 100g. Pure protein!",
+    "Apple": "🍏 Apple: ~52 kcal per 100g. Lots of fiber.",
+    "Egg": "🥚 Boiled egg (1 pc): ~75 kcal. Contains healthy fats.",
+    "Running": "🏃 Jogging: Burns about 600 kcal in 1 hour.",
+    "Walking": "🚶 Steps/Walking: Burns about 250-300 kcal in 1 hour.",
+    "Swimming": "🏊 Swimming: Burns about 500 kcal in 1 hour of exercise.",
+    "Bike": "🚴 Cycling: Burns about 450 kcal in 1 hour of moderate riding.",
+    "Water": "💧 Water contains 0 kcal. It is recommended to drink 1.5-2 liters per day.",
+    "Sleep": "😴 During sleep, a person burns about 60-70 kcal in one hour."
 }
 
 def get_main_keyboard():
